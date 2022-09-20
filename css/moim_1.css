@@ -404,6 +404,13 @@ span.me {
         letter-spacing: 2px;
     }
 
+    .content h2{
+        font-weight:500;
+        font-size: 1.65rem;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(36, 36, 36);
+    }
+
 
 
     
@@ -419,6 +426,8 @@ span.me {
         
         font-weight: 400;
     }
+
+    
 
     
 
