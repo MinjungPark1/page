@@ -518,23 +518,6 @@ span.select {
         width:88%;
     }
 
-    .end h4{
-        display: none;
-    }
-
-    .end h5{
-        display: block;
-        float: right;
-        font-size: 0.3rem;
-
-        color:  rgb(124, 124, 124);
-    
-        font-weight:300;
-        font-family: 'Poppins', sans-serif;
-        letter-spacing: 0rem;   
-
-    }
-
     .endcontact{
         width: 100%;
         
