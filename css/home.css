@@ -191,6 +191,20 @@ a{
 
 }
 
+.self h3{
+    color: rgb(65, 65, 65);
+    margin-bottom: 0rem;
+    letter-spacing: 0.12rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight:300;
+    font-family: 'Poppins', sans-serif;
+    
+
+    
+
+}
+
 
 
 .self p{
