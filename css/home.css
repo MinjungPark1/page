@@ -24,8 +24,10 @@ a{
 
 .header{
     width: 100%;
-    height: 100px;
-    margin: 0px auto;
+    height: 4rem;
+    display:flex;
+
+    /*margin-bottom: 1.9rem;*/
     /*background:brown;*/
     
        
@@ -37,6 +39,8 @@ a{
     height: auto;
     margin: 0px auto;
     /*background:yellow;*/
+    border-bottom: solid 0.85px #bbbbbb;
+    
     
     
 
@@ -54,33 +58,28 @@ a{
 
 .bottomleft h1 a{
     margin:0px;
-    float: left;
-    font-family: 'Poppins', sans-serif;
-    font-weight:600;
-    font-size: 1.1rem;
-    letter-spacing: 0.1rem;
-    text-decoration: none;
-    /*color: #ff598b;*/
-    color:rgb(247, 23, 135);
-    padding-top: 2.6rem;
     
-    text-decoration:none;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+    
+    /*color: #ff598b;*/
+    color:rgb(0, 0, 0);
+    padding-top: 1.3rem;
+    padding-left: 0.8rem;
+    
     
 }
 
 
 
 .bottomleft h1 a:hover{
-    margin:0px;
-    float: left;
-    font-family: 'Poppins', sans-serif;
-    font-weight:600;
-    font-size: 1.1rem;
-    letter-spacing: 0.1rem;
-    text-decoration: none;
+
+    
     color: rgb(31, 31, 31);
-    padding-top: 2.6rem;
-    text-decoration:none;
 }
 
 
@@ -88,11 +87,12 @@ a{
     float:right;
     font-family: 'Poppins', sans-serif;
     /*background:hotpink;*/
-    padding-top:2.7rem;
-    font-size: 0.85rem;
-    letter-spacing: 1px;
-    font-weight: 300;
-    word-spacing: 38px;
+    padding-top: 1.4rem;
+    padding-right: 0.6rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    font-weight: 400;
+    
     display: flex;
     flex-wrap: wrap;
     
@@ -100,21 +100,39 @@ a{
 
 .bottomright li{
     list-style: none;
+    border-left: 1px solid rgb(31, 31, 31);
 }
 
+.bottomright li:first-child{
+    border-left: none;	
+  }
 
-.bottomright a{
+
+
+.bottomright li a{
     text-decoration:none;
-    color: rgb(56, 56, 56);
+    color: rgb(0, 0, 0);
     font-weight: 300;
-    margin: 1.3rem;
+    margin: 1.7rem;
+    font-size: 0.85rem;
+    
+    
+    text-align: center;
+   
     
     
 }
 
-.bottomright a:hover{
-    color: rgb(247, 70, 158);
-    font-weight: 500;
+
+
+.bottomright li a:hover{
+    color: rgb(176, 38, 255);
+    font-weight: 600;
+}
+
+hr {
+    width:92%;
+    margin:0 auto;
 }
 
 
@@ -128,7 +146,8 @@ a{
 .introself{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width:92%;
+    /*background-color: #5C6BC0;*/
     
     margin: 0px auto;
 
@@ -140,19 +159,31 @@ a{
 
 .introleft{
     
-    width: 30%;
-    padding-top: 1.9rem ;
-    padding-right: 2.5rem;
+    width: 25%;
+    
     margin: 0px auto;
+    padding-left: 2rem;   
     /*background:lightpink;*/
     
 }
 
+.introleft p{
+    color: rgb(65, 65, 65);
+    margin-top: 0.5rem;
+    letter-spacing: 0rem;
+    font-size: 0.7rem;
+    font-weight:300;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
 .introright{
-    width: 70%;
+    width: 75%;
     height: auto;
     /*background-color: aqua;*/
-    padding-left: 3rem;
+  
+   
 
 }
 
@@ -162,7 +193,7 @@ a{
     height: auto;
     
     color: rgb(#333333);
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     
    /* background:blue;*/
  
@@ -178,11 +209,10 @@ a{
 
 
 .self h1{
-    color: rgb(65, 65, 65);
-    margin-bottom: 1rem;
-    letter-spacing: 0.12rem;
-    font-size: 1.75rem;
-    line-height: 2.6rem;
+    color: rgb(51, 51, 51);
+    letter-spacing: 0rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
     font-weight:500;
     font-family: 'Poppins', sans-serif;
     
@@ -191,35 +221,20 @@ a{
 
 }
 
-.self h3{
-    color: rgb(65, 65, 65);
-    margin-bottom: 0rem;
-    letter-spacing: 0.12rem;
-    font-size: 1rem;
-    line-height: 1.6rem;
-    font-weight:300;
-    font-family: 'Poppins', sans-serif;
-    
-
-    
-
-}
-
-
 
 .self p{
-    
     font-family: 'Poppins', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
     width: 100%;
     font-weight:300;
-    font-size: 0.90rem;
-    letter-spacing: 0.01rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.05rem;
     text-decoration: none;
-    color: rgb(71, 71, 71);
-    margin-bottom: 1rem;
+    color: rgb(31,31,31);
+    margin-bottom: 0.5rem;
     /*background:hotpink;*/
     padding: 0px;
-    line-height: 1.45rem;
+    line-height: 1rem;
     
     
     
@@ -228,30 +243,29 @@ a{
 
 .self p a{
     
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     width: 94%;
-    font-weight:500;
+    font-weight:400;
     font-size: 0.90rem;
     letter-spacing: 0.01rem;
     text-decoration: none;
-    color: rgb(247, 23, 135);
+    color: rgb(176, 38, 255);
     margin-bottom: 1rem;
     /*background:hotpink;*/
     padding: 0px;
-    line-height: 1.8rem; 
+    line-height: 1rem;
 }
 
 .self p a:hover{
+    font-weight:700;
     
-    color:rgb(248, 42, 145);
+    color:rgb(176, 38, 255);
 }
 
 
 .contactmessage{
-    
-    
-    
-    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
     /*background:hotpink;*/
     margin:0px;
     font-size: 0.85rem;
@@ -264,46 +278,62 @@ a{
     
 }
 
+
+.btn-group{
+    display: none;
+}
+
+
+
+
+
+
+
 .button {
-    background-color: rgb(248, 42, 145);/* Green */
+    background-color: rgb(176, 38, 255);/* Green */
     border: none;
     color: white;
     padding: 0.12rem 0.3rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 0.85rem;
-    letter-spacing: 0.21rem;
+    font-size: 0.65rem;
+    letter-spacing: 0rem;
     font-weight: 300;
-    word-spacing: 2.8rem;
+    
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 0.2rem;
-    margin-right: 1rem;
+    border-radius: 0.1rem;
+    margin-right: 0.5rem;
 }
 
 .button1 {
     background-color: rgb(255, 255, 255); 
-    color: rgb(248, 42, 145); 
-    border: 0.1rem solid rgb(255, 95, 175);
-    font-weight: 400;
+    color: rgb(176, 38, 255);
+    
+
+    
+    border: 0.1rem solid rgb(176, 38, 255);
+    font-weight: 500;
 }
   
 .button1:hover {
-    background-color: rgb(248, 42, 145);
+    background-color: rgb(176, 38, 255);
     color: white;
+    font-weight: 500;
+    
 }
 
 .button2 {
     background-color: rgb(243, 243, 243); 
     border: 0.085rem solid rgb(224, 224, 224);
-    color: rgb(248, 42, 145); 
+    color: rgb(176, 38, 255);
     
     font-weight: 400;
 }
   
 .button2:hover {
-    background-color: rgb(248, 42, 145);
+    background-color: rgb(176, 38, 255);
     color: white;
 }
 
@@ -314,17 +344,22 @@ a{
     margin: 0px auto;
     /*background-color: yellow;*/
     margin-bottom: 5.5rem;
+    
 }
 
 
 .newsright table tr td{
+    font-family: 'Poppins', sans-serif;
     /*background-color: #5C6BC0;*/
-    padding: 0.2rem;
-    padding-top: 0.6rem;
+    padding: 0rem;
+    padding-top: 0.3rem;
     text-align: left;
     vertical-align : top;
-    font-size: 1rem;
-    font-weight:400;
+    font-size: 0.85rem;
+    font-weight:300;
+
+
+    color: rgb(31,31,31);
     
 }
 
@@ -336,62 +371,35 @@ a{
 
 
 .newsright h1{
-    border-bottom: solid 1px #e8e8e8;
- 
-    margin-bottom: 1rem;
-    font-size: 1.35rem;    
+    border-bottom: solid 1px #bbbbbb;
+    font-weight:500;
+    font-size: 1rem;    
     font-family: 'Poppins', sans-serif;
-    color: rgb(#333333);
+    color: rgb(51, 51, 51);
     
 
 }
 
-.newsgroup h4{
-    color: rgb(158, 158, 158);
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.90rem;
-    font-weight:300;
-   
-
-    background-color: burlywood;
-    margin-right: 1rem;
-}
-
-.newsgroup p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.90rem;
-    font-weight:300;
-    color: #333333;
-    background-color: chartreuse;
-}
 
 
-.newsright p{
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.90rem;
-    font-weight:300;
-    display: flex;
-    
-}
 
 span.date {
-    color: rgb(158, 158, 158);
+    color: rgb(121, 121, 121);
     font-family: 'Poppins', sans-serif;
-    font-size: 0.90rem;
-    font-weight:300;
+    font-size: 0.85rem;
+    font-weight:300; 
     
 }
 
 span.bold{
-    font-weight:500;
-    color: rgb(248, 42, 145); 
+    font-weight:300;
+    color: rgb(176, 38, 255);
 
 }
 
 .newsright table tr td a{
     font-weight:500;
-    color: rgb(248, 42, 145); 
+    color: rgb(176, 38, 255);
 }
 
 
@@ -399,7 +407,7 @@ span.bold{
 
 .end{
     border-top: solid 1px #c2c2c2;
-    width:92%;
+    width: 92%;
     
     margin-bottom: 3rem;
 
@@ -415,15 +423,15 @@ span.bold{
 
 .end h1{
     margin-top:1rem;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     
-    font-family: 'Poppins', sans-serif;
-    font-weight:500;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
     
-    letter-spacing: 0.1rem;
-    text-decoration: none;
+    
+
     /*color: #ff598b;*/
-    color:rgb(247, 23, 135);
+    color: rgb(176, 38, 255);
     
     text-decoration:none;
 
@@ -431,7 +439,7 @@ span.bold{
 
 .endcontact{
     /*background-color: #ca7171;*/
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     word-spacing: 1rem;
     
     
@@ -439,11 +447,13 @@ span.bold{
 
 .endcontact a{
     vertical-align: bottom;
-    color: rgb(56, 56, 56);
-    font-weight: 500;
+    color: rgb(54, 54, 54);
+    font-weight: 300;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
-    letter-spacing: 0.1rem;
+    word-spacing: 0rem;
+    letter-spacing: 0.02rem;
+    
     
 
 }
@@ -451,7 +461,7 @@ span.bold{
 .end h4{
     /*background-color: blanchedalmond;*/
     float: right;
-    
+    margin-top: 1rem;
     color:  rgb(78, 78, 78);
     font-size: 0.8rem;
     font-weight:300;
@@ -474,10 +484,16 @@ span.bold{
 
     body{
         overflow-x: hidden;
+        
     }
 
     nav{
         overflow-x: hidden;
+    }
+
+    .bottomright li{
+        
+        border-left: none;
     }
    
     .bars {
@@ -512,8 +528,8 @@ span.bold{
         position: absolute;
         top: -220px;
         right: -200px;
-        background: rgba(255, 67, 173, 0.2);
-        box-shadow: 0px 0px 5px rgba(255, 67, 173, 0.2);
+        background: rgba(35, 10, 49, 0.1);
+        box-shadow: 0px 0px 5px rgba(127, 3, 177, 0.2);
         width: 350px;
         height: 450px;
         border-bottom-left-radius: 200px;
@@ -564,36 +580,89 @@ span.bold{
     }
 
     .bottom{
-        width: 82%;
+        width: 88%;
+        border-bottom: none;
     }
 
 
     .bottomleft h1 a{
         font-size: 1.25rem;
         padding-left: 0rem;
+        
     }
+
+    
 
     .bottomright a{
         text-decoration:none;
         /*color: rgb(28, 221, 10);*/
         font-weight: 400;
     }
+
+
     .introleft{
-        width:65%;
+        width:55%;
         margin-bottom: 1.5rem;
+        margin-top: 2rem;
        
     }
 
+    
+
     .contactmessage{
-        flex-direction: column;
-        justify-content: space-between;
-        font-size: 0.68rem;
+        display: none;
     }
+
+    .btn-group{
+        font-family: 'Open Sans', sans-serif;
+        width: 100%;
+        margin:0px;
+        font-size: 0.85rem;
+        letter-spacing: 0.15rem;
+        font-weight: 300;
+        word-spacing: 1.2rem;
+        display: flex;
+        
+        
+
+        
+    }
+
+    .btn-group button {
+        background-color: rgb(255, 255, 255); 
+        color: rgb(176, 38, 255);
+    
+
+    
+        border: 0.1rem solid rgb(176, 38, 255);
+       
+        
+       
+        
+        width: 19%;
+        padding: 0.12rem 0.3rem;
+        text-align: center;
+        margin: 0.05rem;
+        border-radius: 0.1rem;
+        margin-right: 0.5rem;
+        
+        
+       
+        display: block;
+        font-size: 0.5rem;
+   
+        font-weight: 500;
+        
+        
+    }
+
+    
 
     
 
     .introself{
         /*background-color: sandybrown;*/
+        width: 88%;
         
         margin-top: 0.2rem;
         
@@ -605,6 +674,7 @@ span.bold{
 
     .introright{
         padding-left: 0rem;
+        padding-right: 0rem;
         width:100%
     }
 
@@ -687,7 +757,10 @@ span.bold{
 
 }
 
-@media(min-width:1920px){
+@media(min-width:1500px){
+
+    
+
     .body{
         margin: auto;
         width: 1500px;
@@ -696,48 +769,34 @@ span.bold{
         /*background-color: rgb(164, 164, 199);*/
     }
 
-    .bottom{
-        width: 92%;
-        
-    }
 
-    .bottomleft h1 a{
-        font-size: 1.55rem;
-    }
-
-    .bottomleft h1 a:hover{
-        
-        font-size: 1.55rem;
-        
-    }
-
-    .bottomright li a{
-        font-size: 0.9rem;
-    }
+    
 
     .introself{
-        margin-bottom:3rem;
-        margin-top: 6rem;
+        width:1364px;
         
         
-        width: 100%;
+        
+       
         
     }
 
     .introleft{
-        padding-right: 5rem ;
-        
+        padding-right: 1rem;
     }
 
-    .detailnews{
-        margin-bottom: 0rem;
-    }
-
-    .end h1{
+    .newsright h1{
+        border-bottom: none;
+       ;
         
-        font-size: 2.3rem;
     
     }
+
+
+
+   
+
+    
 
 }
 
