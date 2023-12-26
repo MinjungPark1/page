@@ -175,6 +175,7 @@ hr {
     margin-top: 1rem;
     margin-left:2rem;
     
+    
 }
 
 
@@ -526,16 +527,18 @@ span.select {
 
     
     .publicationcontents{
-        width: 90%;
+        width: 86%;
         height: auto;
-        padding-top: 3rem;
+        padding-top: 4rem;
        
         margin: 0px auto;
         
         flex-grow: 0;
+        padding-left: 0rem;
 
     }
         
+   
   
 
     
@@ -543,11 +546,15 @@ span.select {
     
         width: 100%;
         height: auto;
-        /*background:lightblue;*/
+        
         padding: 0rem;
         margin-bottom: 3rem;
     
     }
+
+    .publication h1{
+        padding-left: 0rem;
+    }    
 
     .publication h2{
         font-size:1.3rem;
